@@ -1,5 +1,5 @@
 # bot
-Hi
+Hi there
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
