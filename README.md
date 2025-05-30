@@ -1,5 +1,3 @@
-# bot
-Hi there from bot
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
