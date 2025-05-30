@@ -1,4 +1,6 @@
-<script type='text/javascript'>
+<html>
+	<head>
+	<script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
@@ -18,3 +20,5 @@
 </script>
 <script type='text/javascript' src='https://haporg--aicxdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1745212045719/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
+</head>
+</html>
