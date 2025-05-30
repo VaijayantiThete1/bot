@@ -6,11 +6,11 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
-				'00Ddq000001AfMH',
-				'Live_Chat_Embedded_Deployment',
-				'https://haporg--aicxdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1745212045719',
+				'00DRt000009ECCE',
+				'Vaijayanti_Test_Deployment',
+				'https://haporg--pocagent.sandbox.my.site.com/ESWVaijayantiTestDeploy1744863440015',
 				{
-					scrt2URL: 'https://haporg--aicxdev.sandbox.my.salesforce-scrt.com'
+					scrt2URL: 'https://haporg--pocagent.sandbox.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -18,7 +18,8 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://haporg--aicxdev.sandbox.my.site.com/ESWLiveChatEmbeddedDep1745212045719/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://haporg--pocagent.sandbox.my.site.com/ESWVaijayantiTestDeploy1744863440015/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 
 </head>
 </html>
