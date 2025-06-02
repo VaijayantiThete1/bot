@@ -1,6 +1,6 @@
 <html>
 	<head>
-	<script>
+	<script type='text/javascript'>
 
 //event listener which listens to every message/event from the Iframe
 
@@ -49,8 +49,8 @@ var iframe = document.getElementById("embeddedMessagingFrame");
 
 }
 
-</script>
-	<script type='text/javascript'>
+
+	
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
