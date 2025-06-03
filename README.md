@@ -2,7 +2,7 @@
 	<head>
 		
 	<script type='text/javascript'>
-	window.addEventListener("message", (event) => {
+	document.addEventListener("message", (event) => {
 system.debug('Inside event');
 if ((event.data.method === "EMBEDDED_MESSAGING_DISPATCH_EVENT_TO_HOST" && event.data.data.eventDetails.conversationEntry && event.data.data.eventDetails.conversationEntry.entryPayload)) {
 
