@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<script type='text/javascript'>
-			document.addEventListener("DOMContentLoaded", function() {}
+			document.addEventListener("DOMContentLoaded", function() {
    //event listener which listens to every message/event from the Iframe
 
 window.addEventListener("message", (event) => {
