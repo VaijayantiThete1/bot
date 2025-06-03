@@ -1,5 +1,8 @@
 <html>
 	<head>
+		
+	</head>
+	<body>
 		<script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -21,5 +24,5 @@
 <script type='text/javascript' src='https://haporg--pocagent.sandbox.my.site.com/ESWVaijayantiTestDeploy1744863440015/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 
-	</head>
+	</body>
 </html>
