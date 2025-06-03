@@ -1,7 +1,8 @@
 <html>
 	<head>
+		<script>
 		document.addEventListener("DOMContentLoaded", function() {
-  			<script>
+  			
 
 //event listener which listens to every message/event from the Iframe
 
@@ -51,10 +52,10 @@ var iframe = document.getElementById("embeddedMessagingFrame");
 
 }
 
-</script>
+
    
  		 });
-
+</script>
 
 	</head>
 	<body>
