@@ -2,12 +2,10 @@
 	<head>
 <script>
 
-  window.addEventListener("message", (event) => {
   
-});
 window.addEventListener("message", (event) => {
 
-if ((event.data.method === "EMBEDDED_MESSAGING_DISPATCH_EVENT_TO_HOST" && event.data.data.eventDetails.conversationEntry && event.data.data.eventDetails.conversationEntry.entryPayload)) {
+if ((event.data.method === "EMBEDDED_MESSAGING_DISPATCH_EVENT_TO_HOST" && event.data.data.eventDetails.conversationEntry && event.data.data.eventDetails.conversationEntry.entryPayload)){
 	console.log('Inside if 1');
  	if(payload.abstractMessage && payload.abstractMessage.choices) {
 
@@ -18,7 +16,7 @@ if ((event.data.method === "EMBEDDED_MESSAGING_DISPATCH_EVENT_TO_HOST" && event.
 
        		console.log('Inside if 3');
 
-    }
+    	}
 }
 
 });
