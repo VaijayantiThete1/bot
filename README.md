@@ -2,7 +2,7 @@
 	<head>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    console.log('Hi');
+    console.log('Hii');
 	console.log('Method is:'+event.data.method);
   });
 </script>
