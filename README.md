@@ -14,6 +14,7 @@ if ((event.data.method === "EMBEDDED_MESSAGING_DISPATCH_EVENT_TO_HOST" && event.
   		var iframe = document.getElementById("embeddedMessagingFrame");
     		console.log('iframe1: '+iframe);
    		iframe.disabled = true;
+     		console.log('isdisable: '+iframe.disabled);
 
 	}
  	else if(payload.abstractMessage && payload.abstractMessage.choicesResponse){
