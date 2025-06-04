@@ -1,9 +1,9 @@
 <html>
 	<head>
 <script>
-window.addEventListener("message", (event) => {
-console.log('Hi');
-}
+document.addEventListener("DOMContentLoaded", function() {
+    console.log('Hi');
+  });
 </script>
 	</head>
 	<body>
