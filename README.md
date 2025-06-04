@@ -7,6 +7,7 @@ window.addEventListener("message", (event) => {
 
 if ((event.data.method === "EMBEDDED_MESSAGING_DISPATCH_EVENT_TO_HOST" && event.data.data.eventDetails.conversationEntry && event.data.data.eventDetails.conversationEntry.entryPayload)){
 	console.log('Inside if 1');
+ 	let payload = JSON.parse(event.data.data.eventDetails.conversationEntry.entryPayload);
  	if(payload.abstractMessage && payload.abstractMessage.choices) {
 
 		console.log('Inside if 2');
