@@ -3,6 +3,7 @@
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     console.log('Hi');
+	console.log('Method is:'+event.data.method);
   });
 </script>
 	</head>
