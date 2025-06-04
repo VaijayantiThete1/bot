@@ -11,11 +11,14 @@ if ((event.data.method === "EMBEDDED_MESSAGING_DISPATCH_EVENT_TO_HOST" && event.
  	if(payload.abstractMessage && payload.abstractMessage.choices) {
 
 		console.log('Inside if 2');
+  		var iframe = document.getElementById("embeddedMessagingFrame");
+   		iframe.contentWindow.postMessage('InputDisable');
 
 	}
  	else if(payload.abstractMessage && payload.abstractMessage.choicesResponse){
-
        		console.log('Inside if 3');
+		var iframe = document.getElementById("embeddedMessagingFrame");
+  		iframe.contentWindow.postMessage('InputEnable');
 
     	}
 }
