@@ -1,10 +1,10 @@
 <html>
 	<head>
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    console.log('Hii');
-	console.log('Method is:'+event.data.method);
-  });
+
+  window.addEventListener("message", (event) => {
+  console.log('Hii');
+});
 </script>
 	</head>
 	<body>
