@@ -15,7 +15,7 @@ if ((event.data.method === "EMBEDDED_MESSAGING_DISPATCH_EVENT_TO_HOST" && event.
     		console.log('iframe1: '+iframe);
    		iframe.disabled = true;
      		console.log('isdisable: '+iframe.disabled);
-
+		embeddedservice_bootstrap.userInputDisabled(true);
 	}
  	else if(payload.abstractMessage && payload.abstractMessage.choicesResponse){
        		console.log('Inside if 3');
