@@ -3,7 +3,7 @@
 <script>
 
   window.addEventListener("message", (event) => {
-  console.log('Hii');
+  console.log('Hello');
 });
 </script>
 	</head>
