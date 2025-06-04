@@ -3,13 +3,16 @@
 <script>
 
   window.addEventListener("message", (event) => {
-  let method1 = event.data.method;
-  console.log('Method1:'+method1);
-  let method2 = event.data.data.eventDetails.conversationEntry;
-  let method3 = event.data.data.eventDetails.conversationEntry.entryPayload;
-  console.log('Method2:'+method2);
-  console.log('Method3:'+method3);
+  
 });
+window.addEventListener("message", (event) => {
+
+if ((event.data.method === "EMBEDDED_MESSAGING_DISPATCH_EVENT_TO_HOST" && event.data.data.eventDetails.conversationEntry && event.data.data.eventDetails.conversationEntry.entryPayload)) {
+	console.log('Inside if');
+}
+
+});
+
 </script>
 	</head>
 	<body>
