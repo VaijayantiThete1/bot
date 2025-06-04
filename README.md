@@ -1,7 +1,9 @@
 <html>
 	<head>
 
-
+window.addEventListener("message", (event) => {
+console.log('Hi');
+}
 
 	</head>
 	<body>
