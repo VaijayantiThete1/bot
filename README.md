@@ -3,7 +3,8 @@
 <script>
 
   window.addEventListener("message", (event) => {
-  console.log('Hello');
+  let method1 = event.data.method;
+  console.log('Method:'+method1);
 });
 </script>
 	</head>
