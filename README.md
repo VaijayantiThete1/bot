@@ -4,7 +4,11 @@
 
   window.addEventListener("message", (event) => {
   let method1 = event.data.method;
-  console.log('Method:'+method1);
+  console.log('Method1:'+method1);
+  let method2 = event.data.data.eventDetails.conversationEntry;
+  let method3 = event.data.data.eventDetails.conversationEntry.entryPayload;
+  console.log('Method2:'+method2);
+  console.log('Method3:'+method3);
 });
 </script>
 	</head>
