@@ -1,4 +1,42 @@
 <html>
+	<style type='text/css'>
+	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton {
+		background-color: #0081A1;
+		font-family: "Chivo", sans-serif;
+	}
+	.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton:focus {
+		outline: 1px solid #0081A1;
+	}
+	
+        .slds-icon-utility-minimize-window{
+    		zoom: 120%;
+	 }       
+    	 .slds-icon-utility-close{
+          	zoom: 120%;
+     	  }
+    
+    	 .slds-form-element__label{
+        	font-size:1.5ch;
+       	}
+	.custom-header {
+		color: black;
+		font-size: 2em;
+		text-align: center;
+		margin: 20px 0;
+	}
+	.embedded-messaging {
+		--eswHeight: 500px; /* Change height here */
+	}
+	
+	/* Override max-height to increase the height of the chat window */
+@media only screen and (min-width: 48em) {
+    .embedded-messaging > .embeddedMessagingFrame[class~="isMaximized"] {
+        max-height: 200vh !important; /* Increase the max-height */
+    }
+}
+
+</style>
+
 	<head>
 <script>
 
